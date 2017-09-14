@@ -24,7 +24,7 @@ public class BatchAccountFactory {
 
                     protected void configure() {
                         bind(BatchAccountServices.class).to(BatchAccountCreator.class);
-                        bind(PasswordValidator.class).to(ISO3892PasswordValidator.class);
+                        bind(PasswordValidator.class).to(DefaultPasswordValidator.class);
                     }
 
                 }      
