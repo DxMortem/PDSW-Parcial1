@@ -4,6 +4,11 @@
 
 ##### Nota: Se debe trabajar en Linux
 
+__Nota:__ Durante el exámen se monitorearán todas las estaciones de trabajo. Tenga en cuenta:
+
+* Se permite Consultar el cueaderno, enunciados de laboratorios, material de lectura dado en clase, APIs del lenguaje.
+* Implica anulación: Hacer uso de 'bancos de proyectos' en USB, Espacios de almacenamiento en la nube (Google Drive, OneDrive, Dropbox, etc), clientes de correo, redes sociales, etc, durante el exámen. 
+
 
 El siguiente, es el modelo de clases de una herramienta que realiza un proceso 'batch' (por lotes) para el registro de usuarios (y sus respectivas contraseñas) en una plataforma. La clase 'TextBasedMain' es el programa principal que inicia el proceso delegándolo a una instancia de la clase 'BatchAccountCreator'. Esta última tiene asociada un validador de contraseñas, usado durante el proceso para garantizar que sólo se registren los usuarios que tengan una contraseña que cumpla con los criterios de la plataforma.
 
