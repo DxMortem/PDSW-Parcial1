@@ -19,8 +19,8 @@ public class ISO3892PasswordValidator {
      * - Las contrasenas deben tener mas de 10 caracteres, A MENOS que las mismas
      * tengan por lo menos uno de los siguientes caracteres especiales:!@#$%ˆ
      * - En ningun caso las cotrasenas debe tener espacios
-     * @param pwd
-     * @return 
+     * @param pwd la contrasena asociada
+     * @return True si cumple con los criterios de la norma ISO3892
      */
     public boolean checkPassword(String pwd){        
         //NO TOCAR ESTE CODIGO!

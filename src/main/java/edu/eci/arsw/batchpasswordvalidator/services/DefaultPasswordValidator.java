@@ -13,8 +13,15 @@ import org.apache.commons.lang.StringUtils;
  */
 public class DefaultPasswordValidator {
     
+    /**
+     * Valida los siguientes criterios de contrasena:
+     * - La contrasena no debe tener mas de 20 caracteres, ni contener los
+     * caracteres especiales: !@#$%ˆ*()-+
+     * @param pwd la contrasena asociada
+     * @return True si cumple con los criterios indicados
+     */
     public boolean validatePassword(String password){
-        if (password.length()<20){            
+        if (password.length()<=20){            
             return !StringUtils.containsAny(password, "!@#$%ˆ*()-+");
         }
         else{
