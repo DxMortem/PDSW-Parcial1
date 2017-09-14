@@ -32,7 +32,7 @@ Aunque la herramienta funciona bien, se ha encontrado que la misma sólo funcion
 	- Se espera, en el futuro, poder integrar nuevos esquemas de validación de contraseñas, y que actualmente se cuenta con uno alternativo: ISO3892PasswordValidator.
 	- El patrón cracional Factory Method.
 
-4. Realice, en papel, el mismo digrama, pero esta vez considerando que se usará un Contenedor Liviano, con soporte a la Inyección de Dependencias.
+4. Realice, en papel, el mismo digrama, pero esta vez considerando que se usará un Contenedor Liviano, con soporte a la Inyección de Dependencias en lugar de patrones creacionales.
 
 5. Implemente el diagrama realizado en el punto 2, haciendo uso -correcto- de Google Guice.
 
