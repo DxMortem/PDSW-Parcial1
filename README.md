@@ -41,12 +41,12 @@ Aunque la herramienta funciona bien, se ha encontrado que la misma sólo funcion
 	* - En ningun caso las cotraseñas debe tener espacios
 	* @param pwd la contrasena asociada
 	* @return True si cumple con los criterios de la norma ISO3892
-	*/
-	
+	*/	
 	```
 	
-	* Defina un conjunto de clases de equivalencia y condiciones de frontera asociadas, y documéntelas en la sección respectiva de los fuentes de la clase ISO3892PasswordValidator.
-	* Implemente una prueba por cada una de las anteriores clases, teniendo cuidado de que los mensajes de aserción indique claramente la naturaleza de la falla. El código de la clase a probar NO ES LEGIBLE, Y NO DEBE SER MODIFICADO. Para este ejercicio NO SE ESPERA QUE CORRIJA LOS DEFECTOS, sólo que los muestre.
+* Defina un conjunto de clases de equivalencia y condiciones de frontera asociadas, y documéntelas en la sección respectiva de los fuentes de la clase ISO3892PasswordValidator.
+	
+* Implemente una prueba por cada una de las anteriores clases, teniendo cuidado de que los mensajes de aserción indique claramente la naturaleza de la falla. El código de la clase a probar NO ES LEGIBLE, Y NO DEBE SER MODIFICADO. Para este ejercicio NO SE ESPERA QUE CORRIJA LOS DEFECTOS, sólo que los muestre.
 
 ## Entrega
 
