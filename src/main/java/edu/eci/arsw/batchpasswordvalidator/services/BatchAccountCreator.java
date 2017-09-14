@@ -5,6 +5,7 @@
  */
 package edu.eci.arsw.batchpasswordvalidator.services;
 
+import com.google.inject.Inject;
 import edu.eci.arsw.batchpasswordvalidator.model.AccountRequest;
 import java.util.LinkedList;
 import java.util.List;
@@ -14,12 +15,12 @@ import java.util.logging.Logger;
  *
  * @author hcadavid
  */
-public class BatchAccountCreator {
+public class BatchAccountCreator implements BatchAccountServices {
     
-    DefaultPasswordValidator pw=new DefaultPasswordValidator();
+    @Inject
+    PasswordValidator pw;    
     
-    
-    
+    @Override
     public List createAccounts(List<AccountRequest> requests){
         
         List<AccountRequest> failedRequests=new LinkedList<>();

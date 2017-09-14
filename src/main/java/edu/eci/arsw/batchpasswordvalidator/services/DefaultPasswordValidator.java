@@ -11,7 +11,7 @@ import org.apache.commons.lang.StringUtils;
  *
  * @author hcadavid
  */
-public class DefaultPasswordValidator {
+public class DefaultPasswordValidator implements PasswordValidator{
     
     /**
      * Valida los siguientes criterios de contrasena:

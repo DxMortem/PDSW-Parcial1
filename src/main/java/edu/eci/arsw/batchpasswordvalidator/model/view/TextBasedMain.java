@@ -6,7 +6,8 @@
 package edu.eci.arsw.batchpasswordvalidator.model.view;
 
 import edu.eci.arsw.batchpasswordvalidator.model.AccountRequest;
-import edu.eci.arsw.batchpasswordvalidator.services.BatchAccountCreator;
+import edu.eci.arsw.batchpasswordvalidator.services.BatchAccountFactory;
+import edu.eci.arsw.batchpasswordvalidator.services.BatchAccountServices;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -23,7 +24,7 @@ import java.util.StringTokenizer;
 public class TextBasedMain {
 
     public static void main(String a[]) throws MalformedURLException, IOException {
-        BatchAccountCreator bac=new BatchAccountCreator();
+        BatchAccountServices bac = BatchAccountFactory.getFactoryInstance().getBatchAccountService();
         
         List<AccountRequest> rejected=bac.createAccounts(loadRequests());
         
